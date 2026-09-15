@@ -74,9 +74,9 @@ The cleaned document is divided into smaller chunks so that relevant sections ca
 
 Each document chunk is converted into a numerical vector using:
 
-```text
+---text
 all-MiniLM-L6-v2
-```
+
 
 These embeddings capture the semantic meaning of the document content.
 
@@ -183,8 +183,7 @@ The project also includes a PySpark processing pipeline designed for structured 
 ### 1. Clone the Repository
 
 ---bash
-git clone https://github.com/Yamuna-0409/University-RAG-Assistant.git
-cd University-RAG-Assistant
+git clone 
 
 
 ### 2. Create Virtual Environment
@@ -255,7 +254,6 @@ http://localhost:5173
 
 The assistant can answer questions such as:
 
----text
 What are the courses in the first year?
 
 <img width="1796" height="901" alt="image" src="https://github.com/user-attachments/assets/5a8a7292-4165-4abf-aaa2-b7c49625967b" />
@@ -282,7 +280,6 @@ What subjects are included in the CSE syllabus?
 
 It retrieves relevant sections from the university document and generates an answer using the retrieved context.
 
----
 
 ## 🔐 Privacy & Cost
 
